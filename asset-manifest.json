@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/epicforge/static/css/main.f6cb4083.chunk.css",
+    "main.js": "/epicforge/static/js/main.f66882d2.chunk.js",
+    "main.js.map": "/epicforge/static/js/main.f66882d2.chunk.js.map",
+    "runtime-main.js": "/epicforge/static/js/runtime-main.52741c8a.js",
+    "runtime-main.js.map": "/epicforge/static/js/runtime-main.52741c8a.js.map",
+    "static/js/2.273cc557.chunk.js": "/epicforge/static/js/2.273cc557.chunk.js",
+    "static/js/2.273cc557.chunk.js.map": "/epicforge/static/js/2.273cc557.chunk.js.map",
+    "static/js/3.3ac2baf1.chunk.js": "/epicforge/static/js/3.3ac2baf1.chunk.js",
+    "static/js/3.3ac2baf1.chunk.js.map": "/epicforge/static/js/3.3ac2baf1.chunk.js.map",
+    "index.html": "/epicforge/index.html",
+    "static/css/main.f6cb4083.chunk.css.map": "/epicforge/static/css/main.f6cb4083.chunk.css.map",
+    "static/js/2.273cc557.chunk.js.LICENSE.txt": "/epicforge/static/js/2.273cc557.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52741c8a.js",
+    "static/js/2.273cc557.chunk.js",
+    "static/css/main.f6cb4083.chunk.css",
+    "static/js/main.f66882d2.chunk.js"
+  ]
+}
