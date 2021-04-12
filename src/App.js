@@ -2,20 +2,21 @@ import React, { Component } from 'react';
 import './App.css';
 import { CardList } from './components/cardList/cardList.component';
 import { SearchBox } from './components/searchBox/searchbox.component';
+import { createClient } from 'pexels';
 
 class App extends Component {
+
 
   constructor(){
     super();
     this.state = {
       weapons: [],
-      searchField: '',
-      API_KEY : '563492ad6f917000010000010666b6e23bad4eb484e55e4da3d02dff'
+      searchField: ''
     }
   }
 
   componentDidMount(){
-    fetch('https://jsonplaceholder.typicode.com/users')
+    fetch('https://raw.githubusercontent.com/jcquinlan/dnd5-weapons-json/master/json/martialMeleeWeapons.json')
     .then(response => response.json())
     .then(users => this.setState({weapons: users}))
   }
@@ -25,7 +26,7 @@ class App extends Component {
 
     const { weapons, searchField } = this.state;
     const filteredWeapons = weapons.filter(weapon =>
-      weapon.name.toLowerCase().includes(searchField.toLowerCase())
+      weapon.Name.toLowerCase().includes(searchField.toLowerCase())
       );
 
 
