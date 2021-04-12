@@ -1,0 +1,12 @@
+.search {
+    font-family: 'MedievalSharp';
+    font-size: 20px;
+    -webkit-appearance: none;
+    border: 10px;
+    outline: auto;
+    padding: 10px;
+    width: 25em;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+ 
